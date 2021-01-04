@@ -18,4 +18,33 @@ The design specification of suspension could indicates that the variance of the 
 
 ![image](https://user-images.githubusercontent.com/67131400/103499124-9f0dfc00-4e0c-11eb-88fe-3ea4a4386448.png)
 
+## Study Design: MechaCar vs Competition
+
+# Description
+
+To provide the clear outcome of the result hypothesis testing is performed. To test the veracity of the claim, one-tailed or two-tailed hypothesis is performed based on the population parameter. The two-tailed hypothesis is conducted to test if the mean of the sample is greater or less than the mean of the total population.
+
+# Metrics
+
+ The study is conducted by comparing the mean of MPG of MechaCar and Mtcars dataset to test if there is significant difference between the MPG for the vehicles in those two datasets.
+ 
+ # Hypothesis
+ 
+ Null Hypothesis (Ho): There is no signifincat difference in mean MPG between two datasets.
+ 
+ Alternative Hypothese (Ha): There is signifincat difference in mean MPG between two datasets.
+ 
+ # Statistical Testing
+ 
+ We will conduct the study by perfgorming two-tailed hypothesis to test both greater or less than sides of the range of specified datasets i.e. MechaCar and Mtcars.
+ 
+ # Result
+ 
+ 
+ 
+  
+  
+
+
+
 
