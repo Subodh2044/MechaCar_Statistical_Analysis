@@ -40,6 +40,10 @@ To provide the clear outcome of the result hypothesis testing is performed. To t
  
  # Result
  
+ ![image](https://user-images.githubusercontent.com/67131400/103499726-bea62400-4e0e-11eb-8849-c139887d1932.png)
+
+ Since the test shows the significant difference between the MPG of two datasets, we will reject null hypothesis and accept alternative hypothesis.
+ 
  
  
   
