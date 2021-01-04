@@ -64,5 +64,5 @@ lot1_summary <- subset(dataframe2,Manufacturing_Lot=='Lot3')
 t.test(lot1_summary$PSI, mu=1500)
 
 #mtcars
-#mecha
+#dataframe
 t.test(dataframe$mpg, mtcars$mpg)
