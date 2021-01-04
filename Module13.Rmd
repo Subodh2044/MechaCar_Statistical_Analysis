@@ -1,0 +1,61 @@
+---
+title: "demo"
+author: "Subodh"
+date: "12/19/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+library(tidyverse)
+library(jsonlite)
+```
+
+```{r}
+?fromJSON
+demo_table <- read.csv(file='demo.csv',check.names=F,stringsAsFactors = F)
+```
+
+```{r}
+demo_table2 <- fromJSON(txt="demo.json")
+```
+
+```{r}
+x <- c(3, 3, 2, 2, 5, 5, 8, 8, 9)
+x[3]
+```
+
+```{r}
+demo_table[3, "Year"]
+```
+
+```{r}
+demo_table[3,3]
+
+demo_table$"Vehicle_Class"
+
+demo_table$"Vehicle_Class"[2]
+```
+
+```{r}
+filter_table <- demo_table2[demo_table2$price > 10000,]
+filter_table
+```
+
+```{r}
+filter_table2 <- subset(demo_table2, price > 10000 & drive == "4wd" & "clean" %in% title_status) #filter by price and drivetrain
+```
+
+```{r}
+demo_table[sample(1:nrow(demo_table), 3),]
+```
+
