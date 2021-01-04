@@ -15,3 +15,7 @@ Since, the linear regressiona vehicle length and ground clearance have p-value t
 The design specification of suspension could indicates that the variance of the coils should not exceed 100 PSI, which the current data from manufacturing meets in all the lots as the variance is 62 PSI whereas design from Lot1 and Lot2 meets but not from Lot3 because it exceeds 100 PSI by 70.
 
 ## T-Tests
+
+![image](https://user-images.githubusercontent.com/67131400/103499124-9f0dfc00-4e0c-11eb-88fe-3ea4a4386448.png)
+
+
